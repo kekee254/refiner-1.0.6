@@ -14,7 +14,9 @@ class Home_Controller extends Refiner_Base_Controller
  }
  public function  index()
  {
-     $this->RView->view('home');
+     $data = $this->model->db;
+     var_dump($data);
+     //$this->RView->view('home');
  }
  public function  welcome($id=null)
  {

@@ -10,9 +10,15 @@ class Refiner_Views
 {
 
     public $loader;
+    public $Session;
 
     public function view($view_name , $data = null)
     {
+        /*
+         * get session properties so that they are available to the view
+         * */
+        $load = new Loader();
+        $this->Session= $load->find('\common\Sessions');
         /*
          * extract data*/
         if ($data):
@@ -22,9 +28,10 @@ class Refiner_Views
             endif;
 
         /*
-         * Set URL
+         * Set DEFAULT APPLICATION  URL
+         * RESULT : http://yourdomain/
          * View documentation for more information*/
-        $url  = Loader::get_configs('R_URL');;
+          $url  = Loader::get_configs('R_URL');;
         /*
          * Path of the view directory
          *  */
@@ -35,7 +42,10 @@ class Refiner_Views
         *check if the file exists then require if
         *  */
        if(file_exists($path_view).$view_name.'.php'):
+           require $path_view.'/_includes/header.php';
            require $path_view.$view_name.'.php';
+           require $path_view.'/_includes/footer.php';
+
        else:
            /*Load the not found error page*/
            require Loader::get_configs('controller_path').'NotFound_Controller'.'.php';

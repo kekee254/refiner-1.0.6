@@ -52,6 +52,7 @@ class AppConfigurationFile
                                 'db_port'=>'3306',
                                 'pdo_driver_options' => array(PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ, PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING),
         );
+        $this->config['db_global'] = 'off';
         /*
          * COOKIE CONFIGS
          * */
@@ -65,6 +66,12 @@ class AppConfigurationFile
                                  * Marks the cookie as accessible only through the HTTP protocol*/
                                 'cookie_security'=> '',
         );
+        /*
+         * LOGIN FORM Label
+         * defaults: input['type:text'] = username ,input['type:password'] = password
+         * remember me
+         * */
+        $this->config['login_form_labels'] = array('username', 'password','remember_me');
 
 
 

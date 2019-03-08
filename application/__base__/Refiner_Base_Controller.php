@@ -10,9 +10,20 @@ class Refiner_Base_Controller
 {
 
     public $RView ;
+    public $Session;
+    public  $model;
     function  __construct()
     {
-        $this->RView = new Refiner_Views();
+        /*
+         * Load Refiner Model that sets up resources
+         * */
+        $this->model = Loader::load()->find('Refiner_Model');
+        /*
+         * Make an instance of the Session*/
+         $this->Session = Loader::load()->find('\common\Sessions');
+         /*
+          * Make properties of the View Class available*/
+         $this->RView = new Refiner_Views();
     }
 
 }

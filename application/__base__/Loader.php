@@ -24,6 +24,7 @@ class Loader
         $config= $config->find('Config');
         return $config->try_config($key);
     }
+
     /*
      * Create connections
      * */
@@ -33,14 +34,13 @@ class Loader
         $database_connection = $database_connection->find('Query');
         return $database_connection->hook();
     }
-
     public function  find($classname)
-{
+    {
     if(isset($classname) && class_exists($classname)):
         $_obj_ =new $classname;
     return $_obj_;
     else:
         echo "can not find class";
         endif;
-}
+    }
 }
