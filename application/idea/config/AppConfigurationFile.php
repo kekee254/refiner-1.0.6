@@ -38,7 +38,7 @@ class AppConfigurationFile
         /*
          * R_URL
          * */
-        $this->config['R_URL'] =  'http://' . $_SERVER['HTTP_HOST'] . str_replace('__start__', '', dirname($_SERVER['SCRIPT_NAME']));
+        $this->config['R_URL'] =  'http://' . $_SERVER['HTTP_HOST'] . str_replace('home', '', dirname($_SERVER['SCRIPT_NAME']));
         /*
          * DATABASE CONFIGS
          * */

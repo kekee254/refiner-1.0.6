@@ -5,25 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62198d0c-dd90-48f8-895f-4d4a0c6ff109" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/application/__base__/Refiner_Model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/idea/common/Email.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/idea/common/Forms.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/idea/common/RDate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/idea/common/Security.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/idea/common/Sessions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/idea/config/Errors.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/idea/config/Mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/model/Home_Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/__base__/Loader.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/__base__/Loader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/__base__/Refiner_Base_Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/__base__/Refiner_Base_Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/__base__/Refiner_Views.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/__base__/Refiner_Views.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controller/Home_Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controller/Home_Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__start__/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/home/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__start__/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/__base__/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/__base__/Application.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/idea/config/AppConfigurationFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/idea/config/AppConfigurationFile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/_includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/_includes/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/_includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/_includes/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/test.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,32 +39,34 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitattributes" value="1" />
-          <entry key="htaccess" value="3" />
+          <entry key="htaccess" value="5" />
           <entry key="json" value="3" />
-          <entry key="php" value="76" />
+          <entry key="php" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="3" />
-          <entry key="PHP" value="76" />
+          <entry key="PHP" value="78" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="htaccess" value="3" />
+          <entry key="htaccess" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="htaccess" value="21" />
+          <entry key="htaccess" value="25" />
           <entry key="json" value="63" />
-          <entry key="php" value="15003" />
+          <entry key="php" value="15642" />
+          <entry key="txt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1" />
           <entry key="JSON" value="63" />
-          <entry key="PHP" value="15002" />
-          <entry key="htaccess" value="21" />
+          <entry key="PHP" value="15641" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="htaccess" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions">
@@ -95,42 +84,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/__base__/Refiner_Model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/idea/common/Email.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="903">
-              <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/idea/config/Mail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/idea/config/Errors.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="13" column="31" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/model/Home_Model.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -170,17 +123,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/__base__/Application.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-315">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="525">
+              <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controller/NotFound_Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controller/Home_Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/idea/common/RDate.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -202,7 +191,6 @@
       <list>
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/application/idea/cofigs/application_config.php" />
-        <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
         <option value="$PROJECT_DIR$/application/idea/config/application_config.php" />
         <option value="$PROJECT_DIR$/composer.json" />
@@ -222,7 +210,6 @@
         <option value="$PROJECT_DIR$/application/view/_includes/header.php" />
         <option value="$PROJECT_DIR$/application/view/test.php" />
         <option value="$PROJECT_DIR$/application/idea/common/Forms.php" />
-        <option value="$PROJECT_DIR$/application/__base__/Application.php" />
         <option value="$PROJECT_DIR$/application/idea/common/Security.php" />
         <option value="$PROJECT_DIR$/application/idea/config/Errors.php" />
         <option value="$PROJECT_DIR$/application/view/home.php" />
@@ -231,12 +218,14 @@
         <option value="$PROJECT_DIR$/application/idea/common/Sessions.php" />
         <option value="$PROJECT_DIR$/application/model/Home_Model.php" />
         <option value="$PROJECT_DIR$/application/__base__/Refiner_Base_Controller.php" />
-        <option value="$PROJECT_DIR$/application/controller/Home_Controller.php" />
         <option value="$PROJECT_DIR$/application/idea/config/AppConfigurationFile.php" />
         <option value="$PROJECT_DIR$/application/__base__/Refiner_Model.php" />
         <option value="$PROJECT_DIR$/application/idea/config/Mail.php" />
         <option value="$PROJECT_DIR$/application/idea/common/Email.php" />
         <option value="$PROJECT_DIR$/application/idea/common/RDate.php" />
+        <option value="$PROJECT_DIR$/application/controller/Home_Controller.php" />
+        <option value="$PROJECT_DIR$/application/__base__/Application.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
       </list>
     </option>
   </component>
@@ -287,6 +276,12 @@
               <item name="refiner-1.0.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="refiner-1.0.0" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="refiner-1.0.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="refiner-1.0.0" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -295,6 +290,18 @@
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="idea" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="refiner-1.0.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="refiner-1.0.0" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="idea" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="refiner-1.0.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="refiner-1.0.0" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="refiner-1.0.0" type="b2602c69:ProjectViewProjectNode" />
@@ -360,24 +367,38 @@
       <workItem from="1551876452090" duration="15589000" />
       <workItem from="1551938529255" duration="22904000" />
       <workItem from="1552018657946" duration="152000" />
-      <workItem from="1552048214862" duration="1622000" />
+      <workItem from="1552048214862" duration="7629000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1552050839312</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552050839312</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="refiner-1_0_0 - 2019.03.08 at 00h 01m 13s.xml">
       <configuration name="refiner-1.0.0" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="refiner-1_0_0 - 2019.03.08 at 16h 11m 16s.xml">
+      <configuration name="refiner-1.0.0" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="refiner-1_0_0 - 2019.03.08 at 16h 11m 29s.xml">
+      <configuration name="refiner-1.0.0" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73903000" />
+    <option name="totallyTimeSpent" value="79910000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.27231467" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19969743" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3276923" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
@@ -404,6 +425,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package.json" />
     <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_classmap.php">
@@ -414,13 +439,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_psr4.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/idea/cofigs/application_config.php" />
     <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
@@ -448,16 +466,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controller/NotFound_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/__start__/Init.php" />
     <entry file="file://$PROJECT_DIR$/application/__base__/Controller.php" />
-    <entry file="file://$PROJECT_DIR$/__start__/index.php">
+    <entry file="file://$PROJECT_DIR$/home/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
@@ -501,13 +512,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__start__/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/idea/common/Login.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -569,13 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controller/Home_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -642,17 +639,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/__base__/Application.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/idea/common/RDate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/__base__/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controller/NotFound_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controller/Home_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>

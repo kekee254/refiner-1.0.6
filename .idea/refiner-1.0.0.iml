@@ -5,7 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/application/core" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/application/controller" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/application/idea/database" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/__start__" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/home" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/application/idea" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/application/idea/url" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/application/idea/config" isTestSource="false" />

@@ -39,7 +39,9 @@ class Application
           require $this->config->try_config('controller_path').$this->controller_name.'.php';
           /*
            * Start  Session*/
-          $this->startSession();
+          if(session_status() == PHP_SESSION_NONE ):
+              $this->startSession();
+          endif;
           /*
            * Use this controller*/
           $this->controller_name = new $this->controller_name;
@@ -55,13 +57,20 @@ class Application
            $_404 ->index();
           endif;
  }
+ /*
+  * set the default  controller
+  * you can change the default controller in the config file
+  * location: ../idea/config/AppConfigurationFile.php*/
  public function setDefaultController()
  {
 
   $this->default_controller= $this->config->try_config('default_controller');
   return $this->default_controller;
  }
-
+/*
+ * set the default method of controllers
+ * you can change the default action name in the config file
+ * location: ../idea/config/AppConfigurationFile.php*/
  public function setDefaultMethod()
  {
   $this->action_name =    $this->config->try_config('default_action');
@@ -89,12 +98,20 @@ class Application
           unset($URL[0],$URL[1]);
       endif;
  }
+ /*
+  * All controllers should conform to this naming pattern
+  * ControllerName_Controller.php
+  * but your not restricted you can use your naming convention
+  * and change things here
+  * */
  public function conform()
  {
      if (isset($this->controller_name)):
         $this->controller_name = ucfirst($this->controller_name).'_'.'Controller';
      endif;
  }
+ /*
+  * Start the application session*/
  public function startSession()
  {
      // if no session exist, start the session
