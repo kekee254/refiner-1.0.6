@@ -7,33 +7,23 @@ namespace Composer\Autoload;
 class ComposerStaticInit472d41ad321e478b2385b8a13e02d18f
 {
     public static $fallbackDirsPsr4 = array (
-        0 => __DIR__ . '/../..' . '/__start__',
-        1 => __DIR__ . '/../..' . '/application/core',
+        0 => __DIR__ . '/../..' . '/home',
+        1 => __DIR__ . '/../..' . '/application/base',
         2 => __DIR__ . '/../..' . '/application/model',
         3 => __DIR__ . '/../..' . '/application/controller',
-        4 => __DIR__ . '/../..' . '/application/idea',
-        5 => __DIR__ . '/../..' . '/application/idea/config',
-        6 => __DIR__ . '/../..' . '/application/idea/database',
-        7 => __DIR__ . '/../..' . '/application/idea/url',
-        8 => __DIR__ . '/../..' . '/application/__base__',
-    );
-
-    public static $classMap = array (
-        'EasyPeasyICS' => __DIR__ . '/..' . '/phpmailer/phpmailer/extras/EasyPeasyICS.php',
-        'PHPMailer' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.phpmailer.php',
-        'PHPMailerOAuth' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.phpmaileroauth.php',
-        'PHPMailerOAuthGoogle' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.phpmaileroauthgoogle.php',
-        'POP3' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.pop3.php',
-        'SMTP' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.smtp.php',
-        'ntlm_sasl_client_class' => __DIR__ . '/..' . '/phpmailer/phpmailer/extras/ntlm_sasl_client.php',
-        'phpmailerException' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.phpmailer.php',
+        4 => __DIR__ . '/../..' . '/application/bundle',
+        5 => __DIR__ . '/../..' . '/application/bundle/env',
+        6 => __DIR__ . '/../..' . '/application/bundle/HTTP',
+        7 => __DIR__ . '/../..' . '/application/bundle/RefinerQueryBuilder',
+        8 => __DIR__ . '/../..' . '/application/bundle/RefinerQueryBuilder/AdapterSettings',
+        9 => __DIR__ . '/../..' . '/application/bundle/RefinerQueryBuilder/QueryExtension',
+        10 => __DIR__ . '/../..' . '/application/bundle/RefinerQueryBuilder/RefinerDI',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->fallbackDirsPsr4 = ComposerStaticInit472d41ad321e478b2385b8a13e02d18f::$fallbackDirsPsr4;
-            $loader->classMap = ComposerStaticInit472d41ad321e478b2385b8a13e02d18f::$classMap;
 
         }, null, ClassLoader::class);
     }

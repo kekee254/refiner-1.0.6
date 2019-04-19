@@ -5,8 +5,8 @@
  * Date: 3/5/2019
  * Time: 9:59 PM
  */
-
-class NotFound_Controller extends Refiner_Base_Controller
+  
+  class NotFound_Controller extends RBC
 {
 
     function __construct()

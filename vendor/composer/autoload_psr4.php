@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    '' => array($baseDir . '/__start__', $baseDir . '/application/core', $baseDir . '/application/model', $baseDir . '/application/controller', $baseDir . '/application/idea', $baseDir . '/application/idea/config', $baseDir . '/application/idea/database', $baseDir . '/application/idea/url', $baseDir . '/application/__base__'),
+    '' => array($baseDir . '/home', $baseDir . '/application/base', $baseDir . '/application/model', $baseDir . '/application/controller', $baseDir . '/application/bundle', $baseDir . '/application/bundle/env', $baseDir . '/application/bundle/HTTP', $baseDir . '/application/bundle/RefinerQueryBuilder', $baseDir . '/application/bundle/RefinerQueryBuilder/AdapterSettings', $baseDir . '/application/bundle/RefinerQueryBuilder/QueryExtension', $baseDir . '/application/bundle/RefinerQueryBuilder/RefinerDI'),
 );

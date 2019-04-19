@@ -8,25 +8,28 @@
 
 class index
 {
-    function __construct()
+  function __construct ($start_file)
     {
-        /*
-         * Load the psr-4 auto-loader to make sure each file
-         * is loaded automatically
-         *
-         * */
+  
+      /*
+       * Start the  application
+       *
+       **/
+      Loader ::load() -> find($start_file);
+  
+    }
+}
+  
+  /*
+           * Load the psr-4 auto-loader to make sure each file
+           * is loaded automatically
+           *
+           * */
         $file = '../vendor/autoload.php';
         if (!file_exists($file)) :
             echo "application error";
         endif;
         require $file;
-        /*
-         * Start the  application
-         * */
-        new Application();
-
-    }
-}
-
-/*start everything*/
-new  index;
+  
+  /*start everything*/
+  new  index(Loader ::get_configs('APP'));

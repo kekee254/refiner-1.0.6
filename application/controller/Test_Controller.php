@@ -5,8 +5,8 @@
  * Date: 3/5/2019
  * Time: 11:33 PM
  */
-
-class Test_Controller extends Refiner_Base_Controller
+  
+  class Test_Controller extends RBC
 {
 function __construct()
 {
@@ -14,10 +14,19 @@ function __construct()
 }
 public function  index()
 {
-    $this->RView->view('test');
+  echo 'Test index';
 }
-public function math()
-{
-    $this->RView->view('test4',array('num'=>array(1,2,3,4)));
+    
+    public function math ($id)
+    {
+      
+      $c = DB ::hook();
+      
+      $db = $c -> getPdoInstance() -> prepare('SELECT * default_colors   ');
+      $db -> execute(array());
+  
+
+  
+
 }
 }

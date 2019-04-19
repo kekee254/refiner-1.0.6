@@ -2,17 +2,18 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/application/core" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/application/controller" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/application/idea/database" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/application/bundle/RefinerQueryBuilder/RefinerDI" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/application/bundle/RefinerQueryBuilder/QueryExtension" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/application/bundle/HTTP" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/application/bundle" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/home" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/application/idea" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/application/idea/url" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/application/idea/config" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/application/bundle/RefinerQueryBuilder" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/application/controller" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/application/bundle/RefinerQueryBuilder/AdapterSettings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/application/bundle/env" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/application/base" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/application/model" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/application/__base__" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/phpmailer/phpmailer" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
