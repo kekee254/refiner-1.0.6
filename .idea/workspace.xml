@@ -4,154 +4,11 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62198d0c-dd90-48f8-895f-4d4a0c6ff109" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/application/base/RBV.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/base/Refiner.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/refiner-1.0.0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/refiner-1.0.0.iml" afterDir="false" />
+    <list default="true" id="62198d0c-dd90-48f8-895f-4d4a0c6ff109" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/__base__/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/base/Application.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/__base__/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/base/Config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/__base__/Db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/__base__/Loader.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/base/Loader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/__base__/Query.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/__base__/Refiner_Base_Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/base/RBC.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/__base__/Refiner_HTTP.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/bundle/HTTP/Method.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/__base__/Refiner_Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/base/RBM.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/__base__/Refiner_Views.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/base/Sessions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controller/Home_Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controller/Home_Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controller/NotFound_Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controller/NotFound_Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controller/Test_Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controller/Test_Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/idea/common/Email.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/idea/common/Forms.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/idea/common/RDate.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/idea/common/Security.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/idea/common/Sessions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/idea/config/AppConfigurationFile.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/idea/config/Errors.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/idea/config/Mail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/model/Home_Base_Model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/_includes/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/_includes/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/test.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/PHPMailerAutoload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/VERSION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/class.phpmailer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/class.phpmaileroauth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/class.phpmaileroauthgoogle.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/class.pop3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/class.smtp.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/DKIM.phps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/code_generator.phps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/contactform.phps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/contents.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/contentsutf8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/exceptions.phps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/gmail.phps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/gmail_xoauth.phps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/images/phpmailer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/images/phpmailer_mini.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/mail.phps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/mailing_list.phps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/pop_before_smtp.phps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/scripts/XRegExp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/scripts/shAutoloader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/scripts/shBrushPhp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/scripts/shCore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/scripts/shLegacy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/send_file_upload.phps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/send_multiple_file_upload.phps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/sendmail.phps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/signed-mail.phps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/smtp.phps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/smtp_check.phps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/smtp_no_auth.phps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/ssl_options.phps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/styles/shCore.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/styles/shCoreDefault.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/styles/shCoreDjango.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/styles/shCoreEclipse.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/styles/shCoreEmacs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/styles/shCoreFadeToGrey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/styles/shCoreMDUltra.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/styles/shCoreMidnight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/styles/shCoreRDark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/styles/shThemeAppleScript.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/styles/shThemeDefault.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/styles/shThemeDjango.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/styles/shThemeEclipse.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/styles/shThemeEmacs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/styles/shThemeFadeToGrey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/styles/shThemeMDUltra.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/styles/shThemeMidnight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/styles/shThemeRDark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/styles/shThemeVisualStudio.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/examples/styles/wrapping.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/extras/EasyPeasyICS.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/extras/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/extras/htmlfilter.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/extras/ntlm_sasl_client.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/get_oauth_token.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-am.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-ar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-az.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-ba.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-be.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-bg.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-ca.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-ch.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-cs.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-da.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-de.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-el.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-eo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-es.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-et.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-fa.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-fi.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-fo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-fr.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-gl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-he.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-hr.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-hu.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-id.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-it.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-ja.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-ka.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-ko.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-lt.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-lv.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-ms.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-nb.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-nl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-pl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt_br.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-ro.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-rs.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-ru.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-sk.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-sl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-sv.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-tr.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-uk.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-vi.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh_cn.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/__base__/Sessions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/model/Home_Model.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,19 +23,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/base/RBC.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/base/Loader.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="259">
-              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+              <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
               <folding>
                 <element signature="n#load#0;n#Loader#0;n#!!top" expanded="true" />
                 <element signature="n#get_configs#0;n#Loader#0;n#!!top" expanded="true" />
@@ -188,16 +36,43 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/bundle/HTTP/Method.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="475">
+              <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
               <folding>
+                <element signature="n#Method#0;n#!!top" expanded="true" />
                 <element signature="n#get#0;n#Method#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="38">
+                <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="52" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -229,31 +104,6 @@
               <folding>
                 <element signature="e#38#81#0#PHP" expanded="true" />
                 <element signature="e#690#1151#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/bundle/env/URLINFO.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="58" column="3" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
-              <folding>
-                <element signature="n#URLINFO#0;n#!!top" expanded="true" />
-                <element signature="n#GET_ITEM_ID#0;n#URLINFO#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/bundle/env/EnvironmentException.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-              <folding>
-                <element signature="n#notFoundClass#0;n#EnvironmentException#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -305,9 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/application/base/students/Istudent.php" />
-        <option value="$PROJECT_DIR$/application/base/staff/Istaff.php" />
-        <option value="$PROJECT_DIR$/application/base/ApplicationDevInformation.txt" />
         <option value="$PROJECT_DIR$/application/idea/common/Sessions.php" />
         <option value="$PROJECT_DIR$/application/idea/common/Security.php" />
         <option value="$PROJECT_DIR$/application/base/Success.php" />
@@ -356,6 +203,9 @@
         <option value="$PROJECT_DIR$/application/bundle/env/AppConfigurationFile.php" />
         <option value="$PROJECT_DIR$/application/controller/Test_Controller.php" />
         <option value="$PROJECT_DIR$/application/base/Loader.php" />
+        <option value="$PROJECT_DIR$/application/bundle/HTTP/Method.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -383,29 +233,6 @@
             <path>
               <item name="Refiner-1.0.6" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="F:\wamp\www\Refiner-1.0.6" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="Refiner-1.0.6" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="F:\wamp\www\Refiner-1.0.6" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="application" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Refiner-1.0.6" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="F:\wamp\www\Refiner-1.0.6" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="application" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="base" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Refiner-1.0.6" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="F:\wamp\www\Refiner-1.0.6" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="application" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Refiner-1.0.6" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="F:\wamp\www\Refiner-1.0.6" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="application" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="view" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -505,7 +332,7 @@
       <workItem from="1555097941074" duration="23000" />
       <workItem from="1555664999522" duration="2595000" />
       <workItem from="1555667722687" duration="4487000" />
-      <workItem from="1555672385910" duration="12020000" />
+      <workItem from="1555672385910" duration="13594000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1552050839312</created>
@@ -521,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552069546542</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Bug Fixing and Other Important Update&#10;*Added RefinerQueryBuilder Bundle">
+      <created>1555685946468</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555685946468</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -536,7 +370,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149967000" />
+    <option name="totallyTimeSpent" value="151541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -546,9 +380,9 @@
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23903178" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32872504" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3276923" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49801192" visible="true" weight="0.32718894" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.3276923" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50198805" side_tool="true" weight="0.32718894" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3276923" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
@@ -596,14 +430,13 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="Bug Fixing and Other Important Update&#10;*Added RefinerQueryBuilder Bundle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug Fixing and Other Important Update&#10;*Added RefinerQueryBuilder Bundle" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/view/_includes/loginheader.php" />
-    <entry file="file://$PROJECT_DIR$/application/idea/config/AppConfigurationFile.php" />
     <entry file="file://$PROJECT_DIR$/application/model/User_Model.php" />
     <entry file="file://$PROJECT_DIR$/application/interfaces/Authentication.php" />
     <entry file="file://$PROJECT_DIR$/application/bundle/env/IError.php">
@@ -632,9 +465,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/view/_include/header.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
@@ -905,7 +735,7 @@
     <entry file="file://$PROJECT_DIR$/application/base/Loader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
           <folding>
             <element signature="n#load#0;n#Loader#0;n#!!top" expanded="true" />
             <element signature="n#get_configs#0;n#Loader#0;n#!!top" expanded="true" />
@@ -916,11 +746,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/bundle/HTTP/Method.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="475">
+          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
           <folding>
+            <element signature="n#Method#0;n#!!top" expanded="true" />
             <element signature="n#get#0;n#Method#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="38">
+            <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="52" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
         </state>
       </provider>
     </entry>
