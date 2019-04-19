@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="62198d0c-dd90-48f8-895f-4d4a0c6ff109" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/__base__/Sessions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/model/Home_Model.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,18 +58,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitattributes">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -332,7 +329,7 @@
       <workItem from="1555097941074" duration="23000" />
       <workItem from="1555664999522" duration="2595000" />
       <workItem from="1555667722687" duration="4487000" />
-      <workItem from="1555672385910" duration="13594000" />
+      <workItem from="1555672385910" duration="14241000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1552050839312</created>
@@ -355,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555685946468</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Bug Fixing and Other Important Update&#10;*Added RefinerQueryBuilder Bundle">
+      <created>1555687480730</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555687480730</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -370,7 +374,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151541000" />
+    <option name="totallyTimeSpent" value="152188000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -380,10 +384,10 @@
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23903178" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32872504" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49801192" visible="true" weight="0.32718894" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49602386" visible="true" weight="0.32718894" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50198805" side_tool="true" weight="0.32718894" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3276923" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50397617" side_tool="true" weight="0.32718894" />
+      <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49801192" weight="0.32718894" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32718894" />
@@ -771,7 +775,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
